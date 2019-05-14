@@ -1,5 +1,4 @@
-a=int(input("enter a number"))
-print(a)
+a=int(input())
 if(a%2==0):
 	print("a is even")
 else:
