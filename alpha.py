@@ -1,3 +1,4 @@
+t=str(input())
 if(t>='a' and t<='z'):
 	print("Alphabet")
 else:
