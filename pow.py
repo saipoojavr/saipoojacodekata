@@ -1,6 +1,7 @@
 try:
-	number=int(input())
-	exponent=int(input())
-	print(pow(number,exponent))
+	number,exponent=input().split()
+	number=int(number)
+	exponent=int(exponent)
+	print(number**exponent)
 except ValueError:
 	print("invalid")
