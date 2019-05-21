@@ -3,7 +3,7 @@ try:
 	a=1
 	b=1
 	if(num==1):
-	    print(a,end='')
+	    print(a)
 	if(num>1):
 	    for count in range(0,num):
 	        if(count==num-1):
