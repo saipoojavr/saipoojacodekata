@@ -9,6 +9,6 @@ for iter in range(0,len(string)):
 	else:
 		continue
 if(count>0 and count1>0):
-	print("yes")
+	print("Yes")
 else:
-	print("no")
+	print("No")
