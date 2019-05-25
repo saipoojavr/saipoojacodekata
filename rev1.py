@@ -1,11 +1,11 @@
 try:
-	num=int(input())
+	num1=int(input())
 	a=0
 	arr=[]
-	while num>0:
-	    a=num%10
+	while num1>0:
+	    a=num1%10
 	    arr.append(a)
-	    num=num//10
+	    num1=num1//10
 	for i in range(0,len(arr)):
 	    print(arr[i],end="")
 except ValueError:
