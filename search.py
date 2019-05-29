@@ -3,9 +3,9 @@ try:
 	list=list(map(int,input().split()))
 	for iter in list:
 		if iter==key:
-			print("yes")
+			print("Yes")
 			break
 	else:
-		print("no")
+		print("No")
 except ValueError:
 	print("invalid")
