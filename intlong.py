@@ -4,5 +4,7 @@ try:
 	    print ("INT")
 	elif n>=-2**31+1 and n<=2**31+1:
 	    print("LONG")  
+	else:
+	    print ("LONG LONG")
 except ValueError:
 	print("invalid")
