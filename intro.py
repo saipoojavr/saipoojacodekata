@@ -1,7 +1,10 @@
-a=-1
-if(a==0):	
-	print("Zero")
-elif(a<0):
-	print("Negative")
-else:
-	print("positive")
+try:
+	a=int(input())
+	if(a==0):	
+		print("Zero")
+	elif(a<0):
+		print("Negative")
+	else:
+		print("positive")
+except ValueError:
+	print("invalid")
