@@ -5,6 +5,6 @@ try:
 	elif(a<0):
 		print("Negative")
 	else:
-		print("positive")
+		print("Positive")
 except ValueError:
 	print("invalid")
