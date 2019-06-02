@@ -1,9 +1,12 @@
 try:
 	num=int(input())
-	for i in range(1,num):
-		div=num/i
+	iter=1
+	while(num!=0):
+		div=num/iter
 		if(div%2==1):
-			print(i)
-			exit(0)
+			print(iter)
+			break
+		iter+=1
 except ValueError:
 	print("invalid")
+	
