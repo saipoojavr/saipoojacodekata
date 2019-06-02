@@ -1,3 +1,4 @@
+# your code goes here
 try:
 	num1,num2=map(int,input().split())
 	arr=list(map(int,input().split()))
@@ -8,6 +9,7 @@ try:
 				count+=1
 		if(count==num2):
 			print(arr[i])
+			count=1
 		else:
 			count=1
 			continue
