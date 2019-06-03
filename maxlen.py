@@ -1,7 +1,7 @@
 try:
 	num=int(input())
 	arr=list(map(int,input().split()))
-	count=0
+	count=1
 	a=[]
 	for i in range(0,num-1):
 		if(arr[i]<arr[i+1]):
