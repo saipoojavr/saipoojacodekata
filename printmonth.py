@@ -1,4 +1,4 @@
-date=map(str,input().split("-"))
+date=input().split("-")
 if date[1]=="01":
 	print("January")
 elif date[1]=="02":
