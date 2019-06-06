@@ -11,5 +11,5 @@ try:
 	    print("no")
 	else:
 	    print("yes")
-ecept ValueError:
+except ValueError:
 	print("invalid")
