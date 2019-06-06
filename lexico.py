@@ -5,6 +5,6 @@ try:
 		arr=input()
 		a.append(arr)
 	b=sorted(a)
-	print(*b)
+	print(b[0])
 except ValueError:
 	print("invalid")
