@@ -1,10 +1,10 @@
 try:
-	num=int(input())
-	key=num
+	num2=int(input())
+	key=num2
 	temp=0
-	while num>1:
-	    if num%2==0:
-	        num=num/2
+	while num2>1:
+	    if num2%2==0:
+	        num2=num2/2
 	        temp=temp+1
 	    else:
 	        print("no")
