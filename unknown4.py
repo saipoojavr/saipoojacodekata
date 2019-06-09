@@ -1,4 +1,4 @@
-num1,num2,num3=map(int,input().split())
+num1,num2=map(int,input().split())
 c=0
 for i in range (0,num3):
 	n1,n2=map(int,input().split())
