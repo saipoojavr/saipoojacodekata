@@ -1,11 +1,6 @@
-from math import gcd
-try:
-	def fact(x):
-		f=1
-		for i in range(1,x+1):
-			f=f*i
-		return f
-	num1,num2=map(int,input().split())
-	print(gcd(fact(num1),fact(num2)))
-except ValueError:
-	print("invalid")
+n1,n2=map(int,input().split())
+g=min(n1,n2)
+c=1
+for i in range(1,g+1):
+	c*=i
+print(c)
