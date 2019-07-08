@@ -1,14 +1,14 @@
 try:
 	num=int(input())
 	arr=list(map(int,input().split()))
-	a=[]
+	b=[]
 	for i in range(0,len(arr)):
 		if i==arr[i]:
-			a.append(i)
-	if len(a)==0:
+			b.append(i)
+	if len(b)==0:
 		print("-1")
 	else:
-		print(*a)
+		print(*b)
 except ValueError:
 	print("invalid")
 	
