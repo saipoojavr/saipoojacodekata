@@ -1,10 +1,10 @@
 try:
-	num=int(input())
-	arr=list(map(int,input().split()))
-	for i in range(0,num-1):
-		for j in range(i+1,num):
-			s=arr[i]+arr[j]
-			if s in arr and arr[i]<arr[j]<s:
-				print(str(arr[i])+" "+str(arr[j])+" "+str(s),"\r")
+	M2=int(input())
+	l2=list(map(int,input().split()))
+	for i2 in range(0,M2-2):
+	    for j2 in range(i2+1,M2-1):
+	        for k2 in range(j2+1,M2):
+	            if(l2[i2]+l2[j2]==l2[k2]):
+	                print(l2[i2], l2[j2], l2[k2])
 except ValueError:
 	print("invalid")
