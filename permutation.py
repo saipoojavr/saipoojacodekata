@@ -1,6 +1,9 @@
 from itertools import permutations
-astr=input()
-arr=permutations(astr)
-for i in arr:
-	print(''.join(i))
+try:	
+	astr=input()
+	arr=permutations(astr)
+	for i in arr:
+		print(''.join(i))
+except ValueError:
+	print("invalid")
 	
